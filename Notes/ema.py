@@ -15,6 +15,9 @@ elif answerbox=="maybe":
     print(r2)
 elif answerbox=="no":
     print(r3)
+else:
+    print("Please enter valid input")
+    answerbox=input("yes,maybe or no \nanswer: ")
 
 
 # In[ ]:
